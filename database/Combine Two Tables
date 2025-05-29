@@ -1,2 +1,3 @@
-select firstname,lastname,city,state 
-from person p left outer join address a on p.personId=a.personId;
+SELECT FIRSTNAME, LASTNAME, CITY, STATE  
+FROM PERSON P  
+LEFT OUTER JOIN ADDRESS A ON P.PERSONID = A.PERSONID;
